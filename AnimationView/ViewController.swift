@@ -7,13 +7,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ImageViewController: UIViewController {
 
+    
+    @IBOutlet var animatedView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    
+    @IBAction func runAnimated(_ sender: UIButton) {
+    }
 }
 
