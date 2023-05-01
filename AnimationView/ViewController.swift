@@ -6,10 +6,11 @@
 //
 
 import UIKit
+import SpringAnimation
 
 final class ImageViewController: UIViewController {
 
-    @IBOutlet var animatedView: UIView!
+    @IBOutlet var animatedView: SpringView!
     @IBOutlet var runButton: UIButton!
     
     override func viewDidLoad() {
@@ -20,7 +21,9 @@ final class ImageViewController: UIViewController {
     }
 
     
-    @IBAction func runAnimated(_ sender: UIButton) {
+    @IBAction func runAnimated(_ sender: SpringButton) {
+        animatedView.animation = "fadeInUp"
+        animatedView.animate()
     }
 }
 
