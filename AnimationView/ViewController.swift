@@ -9,11 +9,14 @@ import UIKit
 
 final class ImageViewController: UIViewController {
 
-    
     @IBOutlet var animatedView: UIView!
+    @IBOutlet var runButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        animatedView.layer.cornerRadius = 20
+        runButton.layer.cornerRadius = 10
     }
 
     

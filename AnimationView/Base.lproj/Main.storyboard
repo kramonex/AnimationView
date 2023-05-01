@@ -47,7 +47,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="animatedView" destination="8bC-Xf-vdC" id="fT6-bB-ChJ"/>
+                        <outlet property="animatedView" destination="n0Z-Ay-gxM" id="x2C-Gz-Sru"/>
+                        <outlet property="runButton" destination="f94-j9-cWQ" id="O8x-so-ogp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
